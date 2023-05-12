@@ -35,7 +35,7 @@ app.get('/', (req: Request, res: Response, next: NextFunction) => {
     const userSchema = new Schema<IUser>({
         id: {
             type: String,
-            required: true,
+            required: true, 
             unique: true
         },
         role:{
